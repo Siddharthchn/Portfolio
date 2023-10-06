@@ -1,0 +1,134 @@
+.app__hero {
+  padding-top: 120px;
+  color: #0a0a23;
+  background-image: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
+}
+@media (max-width: 992px) {
+  .app__hero {
+    padding-bottom: 120px;
+  }
+}
+.app__hero-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  height: 100%;
+}
+@media (max-width: 992px) {
+  .app__hero-container {
+    flex-direction: column;
+  }
+}
+.app__hero-container_text {
+  flex: 1;
+  margin-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 992px) {
+  .app__hero-container_text {
+    order: 2;
+  }
+}
+.app__hero-container_text > p {
+  margin: 0;
+  color: var(--color-secondary);
+}
+.app__hero-container_text-name {
+  font-weight: 900;
+  font-size: 3rem;
+  color: var(--color-main);
+}
+@media (max-width: 1200px) {
+  .app__hero-container_text-name {
+    font-size: 4.2rem;
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .app__hero-container_text-name {
+    margin-bottom: 0.5rem;
+    margin-top: 0.1rem;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .app__hero-container_text-name {
+    font-size: 3.75rem;
+    text-align: center;
+  }
+}
+@media (max-width: 440px) {
+  .app__hero-container_text-name {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+@media (max-width: 375px) {
+  .app__hero-container_text-name {
+    font-size: 2.75rem;
+    text-align: center;
+  }
+}
+@media (max-width: 350px) {
+  .app__hero-container_text-name {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+.app__hero-container_text-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 0.875rem;
+}
+@media (max-width: 1200px) {
+  .app__hero-container_text-title {
+    font-size: 1.75rem;
+  }
+}
+@media (max-width: 500px) {
+  .app__hero-container_text-title {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 420px) {
+  .app__hero-container_text-title {
+    font-size: 1.15rem;
+  }
+}
+@media (max-width: 375px) {
+  .app__hero-container_text-title {
+    font-size: 1rem;
+  }
+}
+.app__hero-container_text-subtitle {
+  font-weight: 300;
+  color: #555;
+}
+@media (max-width: 500px) {
+  .app__hero-container_text-subtitle {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 420px) {
+  .app__hero-container_text-subtitle {
+    font-size: 0.875rem;
+  }
+}
+.app__hero-container_image {
+  flex: 1;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .app__hero-container_image {
+    order: 1;
+  }
+}
+.app__hero-container_image img {
+  width: 100%;
+}/*# sourceMappingURL=Hero.css.map */
