@@ -4,6 +4,7 @@ import CountryApi from '../../assets/images/projects/countryapi.png'
 import Flight from '../../assets/images/projects/flightagency.png'
 import Gpt3 from '../../assets/images/projects/gpt3.jpg'
 import HooBank from '../../assets/images/projects/HooBank.png'
+import HouseSearch from '../../assets/images/projects/HouseSearch.png'
 import Metaverse from '../../assets/images/projects/metaverse.png'
 import Moviepedia from '../../assets/images/projects/moviepedia.png'
 import Realestate1 from '../../assets/images/projects/real-estate1.png'
@@ -12,6 +13,7 @@ import Restaurant from '../../assets/images/projects/restaurant.png'
 import Sneakers from '../../assets/images/projects/sneakers1.png'
 import Weather from '../../assets/images/projects/weather1.png'
 import Youtube from '../../assets/images/projects/youtube.png'
+import Travel from '../../assets/images/projects/travel.png';
 
 
 
@@ -39,6 +41,20 @@ const ProjectDetails = [
     title: "Youtube Clone",
     text: "YouTube is a popular video sharing website where registered users can upload and share videos with anyone able to access the site. Rebuilt using React.js, TailwindCSS and RapidAPI",
     site: "https://siddharthchn-youtubeclone.netlify.app/",
+    code: null,
+  },
+  {
+    image: HouseSearch,
+    title: "House Search",
+    text: "HouseSearch is a Real Estate Application where you can find different renting properties in USA. Built with React.js and TailwindCSS.",
+    site: "https://siddharthchn-housesearch.netlify.app/",
+    code: null,
+  },
+  {
+    image: Travel,
+    title: "Travel Agency App",
+    text: "Implemented a modern UI/UX design for a travel agency landing page.",
+    site: "https://siddharthchn-travelagency.netlify.app/",
     code: null,
   },
   {
