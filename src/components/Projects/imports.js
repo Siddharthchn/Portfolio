@@ -13,7 +13,8 @@ import Restaurant from '../../assets/images/projects/restaurant.png'
 import Sneakers from '../../assets/images/projects/sneakers1.png'
 import Weather from '../../assets/images/projects/weather1.png'
 import Youtube from '../../assets/images/projects/youtube.png'
-import Travel from '../../assets/images/projects/travel.png';
+import Travel from '../../assets/images/projects/travel.png'
+import Jobline from '../../assets/images/projects/jobline.png'
 
 
 
@@ -72,10 +73,17 @@ const ProjectDetails = [
     code: "https://github.com/Siddharthchn/Gericht-Restaurant-Website",
   },
   {
+    image: Jobline,
+    title: "Jobline",
+    text: "Connecting talent with opportunity, our job website streamlines the search process, empowering individuals to find their ideal career path effortlessly",
+    site: "https://siddharthchn-jobline.netlify.app/",
+    code: null,
+  },
+  {
     image: Weather,
     title: "Weather",
     text: "Weather App a weather application that keep track of the weather around the world. Built using HTML, CSS, JS and the openweather api.",
-    site: "https://siddharthchn.github.io/WeatherApp/",
+    site: "https://siddharthchn-jobline.netlify.app/",
     code: "https://github.com/Siddharthchn/WeatherApp",
   },
   {
